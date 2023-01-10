@@ -1,6 +1,6 @@
 import React from "react";
-import E1 from "./e1";
+import Graph from "./graph";
 
 export default function App() {
-  return <E1 />;
+  return <Graph />;
 }
