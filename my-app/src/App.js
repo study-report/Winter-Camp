@@ -1,6 +1,6 @@
 import React from "react";
-import PieChart from "./pie_chart";
+import RealChart from "./real_chart";
 
 export default function App() {
-  return <PieChart />;
+  return <RealChart />;
 }
