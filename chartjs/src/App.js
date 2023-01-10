@@ -34,7 +34,7 @@ export const options = {
   },
 };
 
-const labels = ["January", "February", "March", "April", "May", "June", "July"];
+const labels = ["January", "February", "March", "April", "May", "June", "July", "August"];
 
 function getRandomArbitrary(min, max) {
   return Math.random() * (max - min) + min;
@@ -46,7 +46,7 @@ export const data = {
     {
       label: "Dataset 1",
       data: labels.map(() =>
-        new Array(7)
+        new Array(8)
           .fill(getRandomArbitrary(1, 101))
           .sort(() => Math.random() - 0.5)
       ),
