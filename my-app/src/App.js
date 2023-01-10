@@ -1,6 +1,6 @@
 import React from "react";
-import SVG from "./svg";
+import E1 from "./e1";
 
 export default function App() {
-  return <SVG />;
+  return <E1 />;
 }
